@@ -5,7 +5,7 @@ android {
     compileSdkVersion rootProject.compileVersion
 
     defaultConfig {
-        minSdkVersion rootProject.minVersion // support v7 minSdkVersion is 9
+        minSdkVersion rootProject.minVersion
         targetSdkVersion rootProject.compileVersion
         applicationId "com.billy.cc.demo"
         versionCode 1

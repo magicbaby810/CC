@@ -6,7 +6,7 @@ android {
     compileSdkVersion rootProject.compileVersion
 
     defaultConfig {
-        minSdkVersion rootProject.minVersion // support v7 minSdkVersion is 9
+        minSdkVersion rootProject.minVersion
         targetSdkVersion rootProject.compileVersion
         if (project.ext.runAsApp) {
             applicationId 'com.billy.cc.demo.component.a'
